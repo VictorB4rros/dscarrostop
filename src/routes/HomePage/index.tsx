@@ -7,7 +7,9 @@ export default function HomePage() {
         <>
             <Header />
             <main>
-
+                <div className="ct-slogan-container">
+                    <p>Venha nos visitar</p>
+                </div>
             </main>
         </>
     );

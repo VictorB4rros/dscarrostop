@@ -4,6 +4,9 @@
   --ct-color-bg-primary: #FFFFFF;
   --ct-color-bg-secondary: #C8C8C8;
   --ct-color-bg-tertiary: #3C9AF0;
+
+  --ct-color-font-primary: #5E5E5E;
+  --ct-color-font-secondary: #FFFFFF;
 }
 
 * {
@@ -24,4 +27,17 @@ html, body {
 
 main {
   padding: 0 20px;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/* generic styles */
+
+.ct-slogan-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ct-color-font-primary);
+  font-weight: 700;
+  font-size: 20px;
+  height: 75px;
 }

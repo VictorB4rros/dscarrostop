@@ -1,7 +1,7 @@
 .ct-header {
     height: 70px;
     background-color: var(--ct-color-bg-tertiary);
-    color: var(--ct-color-bg-primary);
+    color: var(--ct-color-font-secondary);
     display: flex;
     align-items: center;
     justify-content: center;
