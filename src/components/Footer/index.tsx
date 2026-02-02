@@ -4,9 +4,9 @@ export default function Footer() {
 
     return (
         <footer className="ct-footer">
-            <div>
+            <div className="ct-footer-text">
                 <p>@dscarrostop</p>
-                <p>Rua da Pipoca, 150</p>
+                <p><i>Rua da Pipoca, 150</i></p>
             </div>
         </footer>
     );
