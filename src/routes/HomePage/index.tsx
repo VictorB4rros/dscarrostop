@@ -1,5 +1,6 @@
-import Header from '../../components/Header';
 import './styles.css';
+import Header from '../../components/Header';
+import CarCard from '../../components/CarCard';
 
 export default function HomePage() {
 
@@ -9,6 +10,9 @@ export default function HomePage() {
             <main>
                 <div className="ct-slogan-container">
                     <p>Venha nos visitar</p>
+                </div>
+                <div>
+                    <CarCard />
                 </div>
             </main>
         </>

@@ -1,0 +1,18 @@
+.ct-car-card-container {
+    padding: 10px;
+    border: 1px solid var(--ct-color-bg-tertiary);
+    border-radius: 10px;
+}
+
+.ct-car-card-image img {
+    height: 194px;
+    width: 260px;
+}
+
+.ct-car-card-text {
+    color: var(--ct-color-font-primary);
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
