@@ -43,6 +43,8 @@ main {
   height: 75px;
 }
 
-.ct-mb25 {
-  margin-bottom: 25px;
+@media (min-width: 576px) {
+  .ct-slogan-container {
+    font-size: 32px;
+  }
 }

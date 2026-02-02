@@ -12,6 +12,19 @@
     text-align: center;
 }
 
+@media (min-width: 576px) {
+    .ct-footer-text {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 960px;
+    }
+
+    .ct-footer {
+        padding: 0 20px;
+    }
+}
+
 .ct-footer p {
     color: var(--ct-color-font-secondary);
     font-size: 16px;

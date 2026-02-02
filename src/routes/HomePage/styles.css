@@ -17,4 +17,6 @@
 .ct-comment-container {
     display: grid;
     gap: 25px;
+    max-width: 960px;
+    margin: 0 auto;
 }

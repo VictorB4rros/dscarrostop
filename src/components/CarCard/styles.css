@@ -2,6 +2,8 @@
     padding: 10px;
     border: 1px solid var(--ct-color-bg-tertiary);
     border-radius: 10px;
+    display: grid;
+    gap: 8px;
 }
 
 .ct-car-card-image {
@@ -14,10 +16,23 @@
     width: 260px;
 }
 
+@media (min-width: 576px) {
+    .ct-car-card-image img {
+        height: 292px;
+        width: 391px;
+    }
+}
+
 .ct-car-card-text {
     color: var(--ct-color-font-primary);
     font-size: 16px;
     font-weight: 700;
     display: flex;
     justify-content: center;
+}
+
+@media (min-width: 576px) {
+    .ct-car-card-text {
+        font-size: 20px;
+    }
 }
