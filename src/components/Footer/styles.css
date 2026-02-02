@@ -1,0 +1,5 @@
+.ct-footer {
+    height: 70px;
+    background-color: var(--ct-color-bg-tertiary);
+    color: var(--ct-color-font-secondary);
+}

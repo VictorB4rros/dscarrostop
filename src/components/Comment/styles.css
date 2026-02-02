@@ -1,0 +1,12 @@
+.ct-comment {
+    background-color: var(--ct-color-bg-primary);
+    border: 1px solid var(--ct-color-bg-tertiary);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.ct-comment p {
+    color: var(--ct-color-font-tertiary);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -7,6 +7,7 @@
 
   --ct-color-font-primary: #5E5E5E;
   --ct-color-font-secondary: #FFFFFF;
+  --ct-color-font-tertiary: #3C9AF0;
 }
 
 * {
@@ -26,7 +27,7 @@ html, body {
 }
 
 main {
-  padding: 0 20px;
+  padding: 0;
 }
 
 /*----------------------------------------------------------------------------------------------*/
