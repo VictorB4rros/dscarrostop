@@ -1,10 +1,17 @@
 #car-section {
-    padding: 0 20px;
+    padding: 0 20px 25px 20px;
 }
 
 #comment-section {
     background-color: var(--ct-color-bg-secondary);
     padding: 0 20px 25px 20px;
+}
+
+.ct-car-card-container {
+    display: grid;
+    gap: 25px;
+    max-width: 746px;
+    margin: 0 auto;
 }
 
 .ct-comment-container {
